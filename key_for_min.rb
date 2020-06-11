@@ -3,16 +3,13 @@
 
 def key_for_min_value(name_hash)
 
-
-   
-  name_array = name_hash.to_a
+  name_hash_to_array = name_hash.to_a
   
-  unless name_array.empty?
-    smallest_key = name_array[0][0]
-    smallest_value = name_array[0][1]
+  unless name_hash_to_array.empty?
+    smallest_key = name_hash_to_array[0][0]
+    smallest_value = name_hash_to_array[0][1]
   else
     smallest_key = nil
-#    smallest_value = nil
   end
 
   name_hash.each do | key, value |
