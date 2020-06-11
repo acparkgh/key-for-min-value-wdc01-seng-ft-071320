@@ -6,7 +6,10 @@ def key_for_min_value(name_hash)
 
    
   name_array = name_hash.to_a
-  name_array.empty? ? smallest_key = nil : smallest_key = name_array[0][0]
+  
+  
+  
+  
   smallest_value = name_array[0][1].to_i
   name_hash.each do | key, value |
 
