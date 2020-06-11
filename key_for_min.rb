@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   
   unless name_array.empty?
     smallest_key = name_array[0][0]
-    smallest_value = name_array[0][1].to_i
+    smallest_value = name_array[0][1]
   else
     smallest_key = nil
 #    smallest_value = nil
