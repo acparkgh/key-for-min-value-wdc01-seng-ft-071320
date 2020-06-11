@@ -12,11 +12,11 @@ def key_for_min_value(name_hash)
     smallest_key = nil
   end
 
-  name_hash.each do | key, value |
+  name_hash.each do | key_name, value_number |
 
-    if name_hash[key] < smallest_value
-      smallest_value = name_hash[key]
-      smallest_key = key
+    if name_hash[key_name] < smallest_value
+      smallest_value = name_hash[key_name]
+      smallest_key = key_name
     end
   end
 
